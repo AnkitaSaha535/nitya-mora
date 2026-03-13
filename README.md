@@ -1,73 +1,167 @@
-# Welcome to your Lovable project
+Nitya Mora
 
-## Project info
+A modern React-based web application built with Vite, TypeScript, Tailwind CSS, and shadcn/ui.
+The project focuses on delivering a fast, scalable, and well-structured frontend architecture with reusable UI components and modern development tooling.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Overview
 
-## How can I edit this code?
+Nitya Mora is a modern web application built using a performant frontend stack. The project leverages Vite for fast builds, React for component-driven UI development, and Tailwind CSS with shadcn/ui for clean, customizable design systems.
 
-There are several ways of editing your application.
+The architecture is designed to support scalability, maintainability, and rapid development. It includes modern state management, form validation, routing, and testing support.
 
-**Use Lovable**
+Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Frontend
 
-Changes made via Lovable will be committed automatically to this repo.
+React 18
 
-**Use your preferred IDE**
+TypeScript
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Vite
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+UI & Styling
 
-Follow these steps:
+Tailwind CSS
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+shadcn/ui
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Radix UI primitives
 
-# Step 3: Install the necessary dependencies.
-npm i
+Framer Motion (animations)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Lucide React (icons)
+
+State & Data Management
+
+React Query
+
+React Hook Form
+
+Zod (validation)
+
+Utilities
+
+clsx
+
+class-variance-authority
+
+date-fns
+
+Testing
+
+Vitest
+
+Testing Library
+
+Playwright
+
+Project Structure
+nitya-mora/
+│
+├── public/               # Static assets
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Application pages
+│   ├── hooks/            # Custom React hooks
+│   ├── lib/              # Utility functions
+│   ├── styles/           # Global styles
+│   └── main.tsx          # Application entry point
+│
+├── components.json       # shadcn configuration
+├── tailwind.config.ts    # Tailwind configuration
+├── vite.config.ts        # Vite configuration
+├── package.json
+└── README.md
+Installation
+
+Clone the repository:
+
+git clone <your-repository-url>
+
+Navigate to the project directory:
+
+cd nitya-mora
+
+Install dependencies:
+
+npm install
+Running the Project
+
+Start the development server:
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+The application will run on:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+http://localhost:5173
+Build for Production
+npm run build
 
-**Use GitHub Codespaces**
+Preview the production build:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+npm run preview
+Testing
 
-## What technologies are used for this project?
+Run tests:
 
-This project is built with:
+npm run test
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Run tests in watch mode:
 
-## How can I deploy this project?
+npm run test:watch
+Linting
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Run ESLint:
 
-## Can I connect a custom domain to my Lovable project?
+npm run lint
+Key Features
 
-Yes, you can!
+Modern React + TypeScript architecture
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Component-driven development
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Accessible UI components via Radix
+
+Fully customizable Tailwind design system
+
+Form validation with React Hook Form + Zod
+
+API state management using React Query
+
+Built-in testing setup
+
+Fast development with Vite
+
+Deployment
+
+The project can be deployed on platforms such as:
+
+Vercel
+
+Netlify
+
+Cloudflare Pages
+
+AWS Amplify
+
+Typical deployment steps:
+
+npm run build
+
+Upload the generated dist/ folder to your hosting provider.
+
+Contributing
+
+Contributions are welcome.
+
+Fork the repository
+
+Create a feature branch
+
+Commit your changes
+
+Open a pull request
+
+License
+
+This project is licensed under the MIT License.
